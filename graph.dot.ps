@@ -1,0 +1,1559 @@
+%!PS-Adobe-3.0
+%%Creator: graphviz version 2.36.0 (20140111.2315)
+%%Title: G
+%%Pages: (atend)
+%%BoundingBox: (atend)
+%%EndComments
+save
+%%BeginProlog
+/DotDict 200 dict def
+DotDict begin
+
+/setupLatin1 {
+mark
+/EncodingVector 256 array def
+ EncodingVector 0
+
+ISOLatin1Encoding 0 255 getinterval putinterval
+EncodingVector 45 /hyphen put
+
+% Set up ISO Latin 1 character encoding
+/starnetISO {
+        dup dup findfont dup length dict begin
+        { 1 index /FID ne { def }{ pop pop } ifelse
+        } forall
+        /Encoding EncodingVector def
+        currentdict end definefont
+} def
+/Times-Roman starnetISO def
+/Times-Italic starnetISO def
+/Times-Bold starnetISO def
+/Times-BoldItalic starnetISO def
+/Helvetica starnetISO def
+/Helvetica-Oblique starnetISO def
+/Helvetica-Bold starnetISO def
+/Helvetica-BoldOblique starnetISO def
+/Courier starnetISO def
+/Courier-Oblique starnetISO def
+/Courier-Bold starnetISO def
+/Courier-BoldOblique starnetISO def
+cleartomark
+} bind def
+
+%%BeginResource: procset graphviz 0 0
+/coord-font-family /Times-Roman def
+/default-font-family /Times-Roman def
+/coordfont coord-font-family findfont 8 scalefont def
+
+/InvScaleFactor 1.0 def
+/set_scale {
+       dup 1 exch div /InvScaleFactor exch def
+       scale
+} bind def
+
+% styles
+/solid { [] 0 setdash } bind def
+/dashed { [9 InvScaleFactor mul dup ] 0 setdash } bind def
+/dotted { [1 InvScaleFactor mul 6 InvScaleFactor mul] 0 setdash } bind def
+/invis {/fill {newpath} def /stroke {newpath} def /show {pop newpath} def} bind def
+/bold { 2 setlinewidth } bind def
+/filled { } bind def
+/unfilled { } bind def
+/rounded { } bind def
+/diagonals { } bind def
+/tapered { } bind def
+
+% hooks for setting color 
+/nodecolor { sethsbcolor } bind def
+/edgecolor { sethsbcolor } bind def
+/graphcolor { sethsbcolor } bind def
+/nopcolor {pop pop pop} bind def
+
+/beginpage {	% i j npages
+	/npages exch def
+	/j exch def
+	/i exch def
+	/str 10 string def
+	npages 1 gt {
+		gsave
+			coordfont setfont
+			0 0 moveto
+			(\() show i str cvs show (,) show j str cvs show (\)) show
+		grestore
+	} if
+} bind def
+
+/set_font {
+	findfont exch
+	scalefont setfont
+} def
+
+% draw text fitted to its expected width
+/alignedtext {			% width text
+	/text exch def
+	/width exch def
+	gsave
+		width 0 gt {
+			[] 0 setdash
+			text stringwidth pop width exch sub text length div 0 text ashow
+		} if
+	grestore
+} def
+
+/boxprim {				% xcorner ycorner xsize ysize
+		4 2 roll
+		moveto
+		2 copy
+		exch 0 rlineto
+		0 exch rlineto
+		pop neg 0 rlineto
+		closepath
+} bind def
+
+/ellipse_path {
+	/ry exch def
+	/rx exch def
+	/y exch def
+	/x exch def
+	matrix currentmatrix
+	newpath
+	x y translate
+	rx ry scale
+	0 0 1 0 360 arc
+	setmatrix
+} bind def
+
+/endpage { showpage } bind def
+/showpage { } def
+
+/layercolorseq
+	[	% layer color sequence - darkest to lightest
+		[0 0 0]
+		[.2 .8 .8]
+		[.4 .8 .8]
+		[.6 .8 .8]
+		[.8 .8 .8]
+	]
+def
+
+/layerlen layercolorseq length def
+
+/setlayer {/maxlayer exch def /curlayer exch def
+	layercolorseq curlayer 1 sub layerlen mod get
+	aload pop sethsbcolor
+	/nodecolor {nopcolor} def
+	/edgecolor {nopcolor} def
+	/graphcolor {nopcolor} def
+} bind def
+
+/onlayer { curlayer ne {invis} if } def
+
+/onlayers {
+	/myupper exch def
+	/mylower exch def
+	curlayer mylower lt
+	curlayer myupper gt
+	or
+	{invis} if
+} def
+
+/curlayer 0 def
+
+%%EndResource
+%%EndProlog
+%%BeginSetup
+14 default-font-family set_font
+1 setmiterlimit
+% /arrowlength 10 def
+% /arrowwidth 5 def
+
+% make sure pdfmark is harmless for PS-interpreters other than Distiller
+/pdfmark where {pop} {userdict /pdfmark /cleartomark load put} ifelse
+% make '<<' and '>>' safe on PS Level 1 devices
+/languagelevel where {pop languagelevel}{1} ifelse
+2 lt {
+    userdict (<<) cvn ([) cvn load put
+    userdict (>>) cvn ([) cvn load put
+} if
+
+%%EndSetup
+setupLatin1
+%%Page: 1 1
+%%PageBoundingBox: 36 36 2456 503
+%%PageOrientation: Portrait
+0 0 1 beginpage
+gsave
+36 36 2420 467 boxprim clip newpath
+1 1 set_scale 0 rotate 40 40 translate
+% clusterEA
+gsave
+1 setlinewidth
+0 0 1 graphcolor
+newpath 816 205 moveto
+816 424 lineto
+2404 424 lineto
+2404 205 lineto
+closepath stroke
+grestore
+% clusterE
+gsave
+0 0 0.82745 graphcolor
+newpath 824 214 moveto
+824 381 lineto
+1502 381 lineto
+1502 214 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 0.82745 graphcolor
+newpath 824 214 moveto
+824 381 lineto
+1502 381 lineto
+1502 214 lineto
+closepath stroke
+0 0 0 graphcolor
+14 /Helvetica set_font
+1140 365.8 moveto 46 (Europe) alignedtext
+grestore
+% clusterA
+gsave
+0 0 0.82745 graphcolor
+newpath 1510 213 moveto
+1510 416 lineto
+2396 416 lineto
+2396 213 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 0.82745 graphcolor
+newpath 1510 213 moveto
+1510 416 lineto
+2396 416 lineto
+2396 213 lineto
+closepath stroke
+0 0 0 graphcolor
+14 /Helvetica set_font
+1939 400.8 moveto 28 (Asia) alignedtext
+grestore
+% clusterNS
+gsave
+1 setlinewidth
+0 0 1 graphcolor
+newpath 8 53 moveto
+8 451 lineto
+808 451 lineto
+808 53 lineto
+closepath stroke
+grestore
+% clusterS
+gsave
+0 0 0.82745 graphcolor
+newpath 344 61 moveto
+344 210 lineto
+665 210 lineto
+665 61 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 0.82745 graphcolor
+newpath 344 61 moveto
+344 210 lineto
+665 210 lineto
+665 61 lineto
+closepath stroke
+0 0 0 graphcolor
+14 /Helvetica set_font
+458.5 194.8 moveto 92 (South America) alignedtext
+grestore
+% clusterN
+gsave
+0 0 0.82745 graphcolor
+newpath 16 218 moveto
+16 443 lineto
+800 443 lineto
+800 218 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 0.82745 graphcolor
+newpath 16 218 moveto
+16 443 lineto
+800 443 lineto
+800 218 lineto
+closepath stroke
+0 0 0 graphcolor
+14 /Helvetica set_font
+363 427.8 moveto 90 (North America) alignedtext
+grestore
+% clusterF
+gsave
+0 0 0.82745 graphcolor
+newpath 926 8 moveto
+926 197 lineto
+1382 197 lineto
+1382 8 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 0.82745 graphcolor
+newpath 926 8 moveto
+926 197 lineto
+1382 197 lineto
+1382 8 lineto
+closepath stroke
+0 0 0 graphcolor
+14 /Helvetica set_font
+1136 181.8 moveto 36 (Africa) alignedtext
+grestore
+% clusterU
+gsave
+0 0 0.82745 graphcolor
+newpath 1916 84 moveto
+1916 197 lineto
+2389 197 lineto
+2389 84 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 0.82745 graphcolor
+newpath 1916 84 moveto
+1916 197 lineto
+2389 197 lineto
+2389 84 lineto
+closepath stroke
+0 0 0 graphcolor
+14 /Helvetica set_font
+2125 181.8 moveto 55 (Australia) alignedtext
+grestore
+% n1
+gsave
+0 0 1 nodecolor
+63 375 38.19 18 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+63 375 38.19 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+41.5 371.3 moveto 43 (Alaska) alignedtext
+grestore
+% n2
+gsave
+0 0 1 nodecolor
+160 355 39.79 18 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+160 355 39.79 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+137.5 351.3 moveto 45 (Alberta) alignedtext
+grestore
+% n1--n2
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 98.3 367.78 moveto
+106.59 366.03 115.46 364.17 123.79 362.41 curveto
+stroke
+grestore
+% n6
+gsave
+0 0 1 nodecolor
+505 385 56.64 26.74 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+505 385 56.64 26.74 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+473 388.8 moveto 64 (Northwest) alignedtext
+0 0 0 nodecolor
+14 /Helvetica set_font
+478.5 373.8 moveto 53 (Territory) alignedtext
+grestore
+% n1--n6
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 99.79 380.1 moveto
+106.49 380.88 113.45 381.57 120 382 curveto
+236.58 389.72 373.5 388.27 448.28 386.6 curveto
+stroke
+grestore
+% n2--n6
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 199.02 358.33 moveto
+259.8 363.64 379.14 374.08 449.16 380.2 curveto
+stroke
+grestore
+% n7
+gsave
+0 0 1 nodecolor
+382 337 40.09 18 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+382 337 40.09 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+359 333.3 moveto 46 (Ontario) alignedtext
+grestore
+% n2--n7
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 199.57 352.65 moveto
+230.95 350.65 276.37 347.54 316 344 curveto
+324.7 343.22 334.05 342.28 342.87 341.34 curveto
+stroke
+grestore
+% n9
+gsave
+0 0 1 nodecolor
+267 298 48.58 37.45 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+267 298 48.58 37.45 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+240.5 309.3 moveto 53 (Western) alignedtext
+0 0 0 nodecolor
+14 /Helvetica set_font
+246.5 294.3 moveto 41 (United) alignedtext
+0 0 0 nodecolor
+14 /Helvetica set_font
+247 279.3 moveto 40 (States) alignedtext
+grestore
+% n2--n9
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 186.15 341.35 moveto
+198.28 334.76 213.12 326.7 226.7 319.33 curveto
+stroke
+grestore
+% n3
+gsave
+0 0 1 nodecolor
+382 253 48.17 26.74 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+382 253 48.17 26.74 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+359 256.8 moveto 46 (Central) alignedtext
+0 0 0 nodecolor
+14 /Helvetica set_font
+356 241.8 moveto 52 (America) alignedtext
+grestore
+% n4
+gsave
+0 0 1 nodecolor
+505 263 45.92 37.45 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+505 263 45.92 37.45 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+480.5 274.3 moveto 49 (Eastern) alignedtext
+0 0 0 nodecolor
+14 /Helvetica set_font
+484.5 259.3 moveto 41 (United) alignedtext
+0 0 0 nodecolor
+14 /Helvetica set_font
+485 244.3 moveto 40 (States) alignedtext
+grestore
+% n3--n4
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 429.78 256.87 moveto
+439.36 257.66 449.42 258.49 458.93 259.28 curveto
+stroke
+grestore
+% s4
+gsave
+0 0 1 nodecolor
+505 161 53.89 18 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+505 161 53.89 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+471.5 157.3 moveto 67 (Venezuela) alignedtext
+grestore
+% n3--s4
+gsave
+1 setlinewidth
+0 1 1 edgecolor
+newpath 411.06 231.66 moveto
+432.71 215.21 462.21 192.77 482.12 177.63 curveto
+stroke
+grestore
+% n8
+gsave
+0 0 1 nodecolor
+623 302 42.79 18 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+623 302 42.79 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+598 298.3 moveto 50 (Quebec) alignedtext
+grestore
+% n4--n8
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 547.88 277.08 moveto
+561.38 281.62 576.14 286.58 588.91 290.88 curveto
+stroke
+grestore
+% n5
+gsave
+0 0 1 nodecolor
+738 337 53.09 18 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+738 337 53.09 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+705 333.3 moveto 66 (Greenland) alignedtext
+grestore
+% e2
+gsave
+0 0 1 nodecolor
+873 332 40.09 18 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+873 332 40.09 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+850 328.3 moveto 46 (Iceland) alignedtext
+grestore
+% n5--e2
+gsave
+1 setlinewidth
+0 1 1 edgecolor
+newpath 791.18 335.04 moveto
+805.01 334.52 819.7 333.97 832.72 333.48 curveto
+stroke
+grestore
+% n6--n5
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 556.98 374.41 moveto
+597.37 366.01 653.26 354.4 692.01 346.35 curveto
+stroke
+grestore
+% n7--n4
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 406.62 322.56 moveto
+423.95 311.96 447.81 297.36 467.58 285.28 curveto
+stroke
+grestore
+% n7--n5
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 422.58 337 moveto
+486.63 337 613.02 337 684.5 337 curveto
+stroke
+grestore
+% n7--n6
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 412.6 348.74 moveto
+427.29 354.57 445.31 361.72 461.45 368.12 curveto
+stroke
+grestore
+% n7--n8
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 420.61 331.49 moveto
+464.64 325.04 537.27 314.41 582.22 307.82 curveto
+stroke
+grestore
+% n8--n5
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 657.9 312.5 moveto
+670.52 316.41 684.93 320.87 697.96 324.91 curveto
+stroke
+grestore
+% n9--n3
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 310.72 280.99 moveto
+321.22 276.81 332.4 272.36 342.67 268.26 curveto
+stroke
+grestore
+% n9--n4
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 315.91 298.34 moveto
+348.39 297.77 392.12 295.43 430 288 curveto
+440.91 285.86 452.43 282.52 463.04 278.98 curveto
+stroke
+grestore
+% n9--n7
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 311.69 313.08 moveto
+324.36 317.45 337.94 322.14 349.68 326.19 curveto
+stroke
+grestore
+% s1
+gsave
+0 0 1 nodecolor
+505 87 49.29 18 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+505 87 49.29 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+475 83.3 moveto 60 (Argentina) alignedtext
+grestore
+% s2
+gsave
+0 0 1 nodecolor
+623 125 33.6 18 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+623 125 33.6 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+605 121.3 moveto 36 (Brazil) alignedtext
+grestore
+% s1--s2
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 542.38 98.92 moveto
+559 104.36 578.37 110.71 593.84 115.78 curveto
+stroke
+grestore
+% f5
+gsave
+0 0 1 nodecolor
+972 139 36.54 26.74 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+972 139 36.54 26.74 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+954.5 142.8 moveto 35 (North) alignedtext
+0 0 0 nodecolor
+14 /Helvetica set_font
+954 127.8 moveto 36 (Africa) alignedtext
+grestore
+% s2--f5
+gsave
+1 setlinewidth
+0 1 1 edgecolor
+newpath 656.96 126.33 moveto
+722.26 128.96 867.59 134.83 935.17 137.55 curveto
+stroke
+grestore
+% s3
+gsave
+0 0 1 nodecolor
+382 124 29.8 18 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+382 124 29.8 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+367 120.3 moveto 30 (Peru) alignedtext
+grestore
+% s3--s1
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 408.96 116.06 moveto
+425.76 110.92 447.91 104.15 466.6 98.44 curveto
+stroke
+grestore
+% s3--s2
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 412.31 124.12 moveto
+457.05 124.31 542.14 124.67 589 124.86 curveto
+stroke
+grestore
+% s3--s4
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 408.96 131.94 moveto
+425.21 136.91 446.46 143.4 464.74 148.99 curveto
+stroke
+grestore
+% s4--s2
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 545.27 148.81 moveto
+561.05 143.92 578.89 138.38 593.4 133.88 curveto
+stroke
+grestore
+% e1
+gsave
+0 0 1 nodecolor
+972 290 39.7 26.74 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+972 290 39.7 26.74 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+954 293.8 moveto 36 (Great) alignedtext
+0 0 0 nodecolor
+14 /Helvetica set_font
+952 278.8 moveto 40 (Britain) alignedtext
+grestore
+% e3
+gsave
+0 0 1 nodecolor
+1220 295 50.41 26.74 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+1220 295 50.41 26.74 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+1192.5 298.8 moveto 55 (Northern) alignedtext
+0 0 0 nodecolor
+14 /Helvetica set_font
+1197 283.8 moveto 46 (Europe) alignedtext
+grestore
+% e1--e3
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 1011.71 290.79 moveto
+1054.33 291.65 1122.97 293.05 1169.48 293.99 curveto
+stroke
+grestore
+% e4
+gsave
+0 0 1 nodecolor
+1091 332 60.39 18 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+1091 332 60.39 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+1052.5 328.3 moveto 77 (Scandinavia) alignedtext
+grestore
+% e1--e4
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 1007.16 302.26 moveto
+1021.05 307.25 1037.18 313.04 1051.49 318.17 curveto
+stroke
+grestore
+% e7
+gsave
+0 0 1 nodecolor
+1091 249 48.58 26.74 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+1091 249 48.58 26.74 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+1064.5 252.8 moveto 53 (Western) alignedtext
+0 0 0 nodecolor
+14 /Helvetica set_font
+1068 237.8 moveto 46 (Europe) alignedtext
+grestore
+% e1--e7
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 1007.47 277.92 moveto
+1020.68 273.29 1035.87 267.97 1049.59 263.16 curveto
+stroke
+grestore
+% e2--e1
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 902.58 319.63 moveto
+913.76 314.79 926.64 309.21 938.19 304.2 curveto
+stroke
+grestore
+% e2--e4
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 913.62 332 moveto
+946.26 332 993.05 332 1030.24 332 curveto
+stroke
+grestore
+% e5
+gsave
+0 0 1 nodecolor
+1340 249 51.74 26.74 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+1340 249 51.74 26.74 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+1311.5 252.8 moveto 57 (Southern) alignedtext
+0 0 0 nodecolor
+14 /Helvetica set_font
+1317 237.8 moveto 46 (Europe) alignedtext
+grestore
+% e3--e5
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 1260.95 279.43 moveto
+1272.98 274.73 1286.2 269.58 1298.29 264.87 curveto
+stroke
+grestore
+% e6
+gsave
+0 0 1 nodecolor
+1452 294 42.49 18 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+1452 294 42.49 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+1427.5 290.3 moveto 49 (Ukraine) alignedtext
+grestore
+% e3--e6
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 1270.34 294.79 moveto
+1311.79 294.61 1370.35 294.35 1409.44 294.18 curveto
+stroke
+grestore
+% e4--e3
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 1135 319.47 moveto
+1148.09 315.66 1162.49 311.46 1175.62 307.64 curveto
+stroke
+grestore
+% e4--e6
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 1151.09 334.07 moveto
+1185.81 334.6 1230.5 334.11 1270 330 curveto
+1320.99 324.69 1378.94 311.95 1415.24 303.15 curveto
+stroke
+grestore
+% e5--e6
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 1381.02 265.37 moveto
+1394.17 270.75 1408.55 276.63 1420.84 281.66 curveto
+stroke
+grestore
+% a1
+gsave
+0 0 1 nodecolor
+1677 276 58.49 18 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+1677 276 58.49 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+1640 272.3 moveto 74 (Afghanistan) alignedtext
+grestore
+% e6--a1
+gsave
+1 setlinewidth
+0 1 1 edgecolor
+newpath 1493.89 291.13 moveto
+1523.39 289.01 1564.17 285.99 1600 283 curveto
+1606.73 282.44 1613.8 281.82 1620.8 281.2 curveto
+stroke
+grestore
+% a7
+gsave
+0 0 1 nodecolor
+1559 248 41.02 26.74 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+1559 248 41.02 26.74 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+1538 251.8 moveto 42 (Middle) alignedtext
+0 0 0 nodecolor
+14 /Helvetica set_font
+1544.5 236.8 moveto 29 (East) alignedtext
+grestore
+% e6--a7
+gsave
+1 setlinewidth
+0 1 1 edgecolor
+newpath 1481.97 281.31 moveto
+1495.2 275.51 1510.95 268.61 1524.67 262.6 curveto
+stroke
+grestore
+% a11
+gsave
+0 0 1 nodecolor
+1782 313 27.1 18 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+1782 313 27.1 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+1769 309.3 moveto 26 (Ural) alignedtext
+grestore
+% e6--a11
+gsave
+1 setlinewidth
+0 1 1 edgecolor
+newpath 1494.21 296.39 moveto
+1562.52 300.34 1697.32 308.15 1754.43 311.46 curveto
+stroke
+grestore
+% e7--e3
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 1132.18 263.55 moveto
+1146.86 268.87 1163.47 274.89 1178.2 280.22 curveto
+stroke
+grestore
+% e7--e5
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 1139.92 249 moveto
+1182.57 249 1244.75 249 1288.24 249 curveto
+stroke
+grestore
+% a2
+gsave
+0 0 1 nodecolor
+1974 276 34.39 18 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+1974 276 34.39 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+1955.5 272.3 moveto 37 (China) alignedtext
+grestore
+% a1--a2
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 1735.58 276 moveto
+1796.28 276 1889.83 276 1939.44 276 curveto
+stroke
+grestore
+% a3
+gsave
+0 0 1 nodecolor
+1867 239 30.59 18 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+1867 239 30.59 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+1851.5 235.3 moveto 31 (India) alignedtext
+grestore
+% a1--a3
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 1726.9 266.38 moveto
+1762.15 259.44 1808.49 250.32 1837.77 244.56 curveto
+stroke
+grestore
+% a1--a11
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 1715.77 289.57 moveto
+1729.78 294.6 1745.25 300.16 1757.61 304.6 curveto
+stroke
+grestore
+% a8
+gsave
+0 0 1 nodecolor
+2090 293 47.39 18 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+2090 293 47.39 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+2061.5 289.3 moveto 57 (Mongolia) alignedtext
+grestore
+% a2--a8
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 2007.36 280.83 moveto
+2019.21 282.59 2032.82 284.62 2045.48 286.51 curveto
+stroke
+grestore
+% a9
+gsave
+0 0 1 nodecolor
+2090 239 31.4 18 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+2090 239 31.4 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+2074 235.3 moveto 32 (Siam) alignedtext
+grestore
+% a2--a9
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 2003.77 266.66 moveto
+2021.71 260.84 2044.64 253.4 2062.2 247.7 curveto
+stroke
+grestore
+% a3--a2
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 1893.69 248.05 moveto
+1909.23 253.53 1929.06 260.52 1945 266.13 curveto
+stroke
+grestore
+% a3--a9
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 1897.81 239 moveto
+1939.87 239 2016.23 239 2058.61 239 curveto
+stroke
+grestore
+% a4
+gsave
+0 0 1 nodecolor
+2206 330 37.89 18 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+2206 330 37.89 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+2185 326.3 moveto 42 (Irkutsk) alignedtext
+grestore
+% a6
+gsave
+0 0 1 nodecolor
+2331 311 56.59 18 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+2331 311 56.59 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+2295.5 307.3 moveto 71 (Kamchatka) alignedtext
+grestore
+% a4--a6
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 2242.25 324.56 moveto
+2253.89 322.76 2267.08 320.72 2279.62 318.78 curveto
+stroke
+grestore
+% a5
+gsave
+0 0 1 nodecolor
+2206 256 36 18 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+2206 256 36 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+2186.5 252.3 moveto 39 (Japan) alignedtext
+grestore
+% a5--a6
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 2233.39 267.8 moveto
+2252.16 276.19 2277.51 287.53 2297.53 296.48 curveto
+stroke
+grestore
+% a7--a1
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 1597.66 257.09 moveto
+1608.11 259.61 1619.58 262.38 1630.43 265 curveto
+stroke
+grestore
+% a7--a3
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 1600 246.82 moveto
+1662.21 244.99 1780.73 241.51 1836.1 239.88 curveto
+stroke
+grestore
+% f2
+gsave
+0 0 1 nodecolor
+1220 105 36.54 26.74 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+1220 105 36.54 26.74 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+1205.5 108.8 moveto 29 (East) alignedtext
+0 0 0 nodecolor
+14 /Helvetica set_font
+1202 93.8 moveto 36 (Africa) alignedtext
+grestore
+% a7--f2
+gsave
+1 setlinewidth
+0 1 1 edgecolor
+newpath 1545.28 222.82 moveto
+1535.45 205.48 1520.43 182.96 1502 168 curveto
+1430 109.55 1314.8 102.73 1256.81 103.4 curveto
+stroke
+grestore
+% a8--a4
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 2126.76 304.61 moveto
+2142.04 309.56 2159.69 315.3 2174.36 320.06 curveto
+stroke
+grestore
+% a8--a5
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 2126.76 281.39 moveto
+2142.43 276.31 2160.6 270.41 2175.48 265.58 curveto
+stroke
+grestore
+% a8--a6
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 2137.27 295.22 moveto
+2170.37 296.95 2215.96 299.62 2256 303 curveto
+2262.95 303.59 2270.27 304.28 2277.48 305.01 curveto
+stroke
+grestore
+% a10
+gsave
+0 0 1 nodecolor
+1867 333 38.99 18 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+1867 333 38.99 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+1845 329.3 moveto 44 (Siberia) alignedtext
+grestore
+% a10--a2
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 1892.88 319.49 moveto
+1909.99 310.21 1932.55 297.96 1949.38 288.82 curveto
+stroke
+grestore
+% a10--a4
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 1906 332.66 moveto
+1971.24 332.08 2103.73 330.9 2168.16 330.33 curveto
+stroke
+grestore
+% a10--a8
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 1903.51 326.57 moveto
+1942.55 319.51 2005.25 308.16 2046.78 300.64 curveto
+stroke
+grestore
+% a12
+gsave
+0 0 1 nodecolor
+2090 367 42.79 18 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+2090 367 42.79 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+2065 363.3 moveto 50 (Yakutsk) alignedtext
+grestore
+% a10--a12
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 1904.49 338.61 moveto
+1944.46 344.76 2008.33 354.59 2049.47 360.92 curveto
+stroke
+grestore
+% a11--a2
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 1808.62 308.01 moveto
+1843.06 301.3 1904.25 289.39 1941.47 282.14 curveto
+stroke
+grestore
+% a11--a10
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 1807.9 319 moveto
+1815.54 320.84 1824.08 322.9 1832.21 324.86 curveto
+stroke
+grestore
+% a12--a4
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 2124.59 356.1 moveto
+2140.35 350.98 2159 344.93 2174.38 339.94 curveto
+stroke
+grestore
+% a12--a6
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 2132.37 370.03 moveto
+2166.38 371.23 2215.39 369.93 2256 357 curveto
+2275.6 350.76 2295.26 338.16 2309.39 327.73 curveto
+stroke
+grestore
+% f1
+gsave
+0 0 1 nodecolor
+1091 108 37.89 18 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+1091 108 37.89 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+1070 104.3 moveto 42 (Congo) alignedtext
+grestore
+% f1--f2
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 1128.73 107.13 moveto
+1145.88 106.73 1166.2 106.25 1183.22 105.85 curveto
+stroke
+grestore
+% f3
+gsave
+0 0 1 nodecolor
+1340 148 33.6 18 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+1340 148 33.6 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+1322 144.3 moveto 36 (Egypt) alignedtext
+grestore
+% f2--f3
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 1253.24 116.75 moveto
+1271.53 123.41 1294.17 131.66 1311.59 138.01 curveto
+stroke
+grestore
+% f3--e5
+gsave
+1 setlinewidth
+0 1 1 edgecolor
+newpath 1340 166.15 moveto
+1340 184.92 1340 203.69 1340 222.46 curveto
+stroke
+grestore
+% f3--a7
+gsave
+1 setlinewidth
+0 1 1 edgecolor
+newpath 1369.78 156.86 moveto
+1402.67 167.5 1457.68 186.82 1502 210 curveto
+1511.99 215.23 1522.37 221.88 1531.43 228.15 curveto
+stroke
+grestore
+% f4
+gsave
+0 0 1 nodecolor
+1091 54 61.19 18 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+1091 54 61.19 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+1052 50.3 moveto 78 (Madagascar) alignedtext
+grestore
+% f4--f2
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 1128.05 68.48 moveto
+1146.83 76.02 1169.56 85.15 1187.61 92.39 curveto
+stroke
+grestore
+% f5--e5
+gsave
+1 setlinewidth
+0 1 1 edgecolor
+newpath 1006.13 148.96 moveto
+1072.29 168.84 1220.8 213.47 1295.02 235.78 curveto
+stroke
+grestore
+% f5--e7
+gsave
+1 setlinewidth
+0 1 1 edgecolor
+newpath 992.01 161.29 moveto
+1002.74 173.45 1016.64 188.53 1030 201 curveto
+1039.85 210.19 1051.27 219.61 1061.48 227.63 curveto
+stroke
+grestore
+% f5--f1
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 1006.84 130.03 moveto
+1022.77 125.81 1041.68 120.8 1057.44 116.63 curveto
+stroke
+grestore
+% f5--f2
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 1008.49 142.3 moveto
+1044.97 144.75 1103.18 146 1152 135 curveto
+1165.05 132.06 1178.67 126.48 1190.19 120.93 curveto
+stroke
+grestore
+% f5--f3
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 1008.53 143.27 moveto
+1015.63 143.97 1023.05 144.6 1030 145 curveto
+1130.43 150.76 1249.5 149.69 1306.04 148.71 curveto
+stroke
+grestore
+% f6
+gsave
+0 0 1 nodecolor
+972 54 37.45 26.74 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+972 54 37.45 26.74 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+953.5 57.8 moveto 37 (South) alignedtext
+0 0 0 nodecolor
+14 /Helvetica set_font
+954 42.8 moveto 36 (Africa) alignedtext
+grestore
+% f6--f1
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 1003.42 68.54 moveto
+1012 72.61 1021.35 77.01 1030 81 curveto
+1040.68 85.93 1052.48 91.27 1062.77 95.88 curveto
+stroke
+grestore
+% f6--f2
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 1001.4 37.53 moveto
+1010.27 33.23 1020.28 29.19 1030 27 curveto
+1082.9 15.1 1102.73 4.37 1152 27 curveto
+1175.85 37.95 1194.4 62.05 1205.87 80.58 curveto
+stroke
+grestore
+% f6--f4
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 1009.7 54 moveto
+1016.13 54 1022.98 54 1029.85 54 curveto
+stroke
+grestore
+% u1
+gsave
+0 0 1 nodecolor
+2331 129 50.41 26.74 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+2331 129 50.41 26.74 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+2306.5 132.8 moveto 49 (Eastern) alignedtext
+0 0 0 nodecolor
+14 /Helvetica set_font
+2303.5 117.8 moveto 55 (Australia) alignedtext
+grestore
+% u2
+gsave
+0 0 1 nodecolor
+1974 148 50.09 18 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+1974 148 50.09 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+1943.5 144.3 moveto 61 (Indonesia) alignedtext
+grestore
+% u2--a9
+gsave
+1 setlinewidth
+0 1 1 edgecolor
+newpath 1995.64 164.48 moveto
+2017.08 181.59 2050.27 208.09 2070.77 224.44 curveto
+stroke
+grestore
+% u3
+gsave
+0 0 1 nodecolor
+2090 119 43.68 26.74 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+2090 119 43.68 26.74 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+2075.5 122.8 moveto 29 (New) alignedtext
+0 0 0 nodecolor
+14 /Helvetica set_font
+2067 107.8 moveto 46 (Guinea) alignedtext
+grestore
+% u2--u3
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 2015.19 137.78 moveto
+2026.22 134.97 2038.17 131.93 2049.17 129.13 curveto
+stroke
+grestore
+% u4
+gsave
+0 0 1 nodecolor
+2206 139 50.41 26.74 ellipse_path fill
+1 setlinewidth
+filled
+0 0 1 nodecolor
+2206 139 50.41 26.74 ellipse_path stroke
+0 0 0 nodecolor
+14 /Helvetica set_font
+2179.5 142.8 moveto 53 (Western) alignedtext
+0 0 0 nodecolor
+14 /Helvetica set_font
+2178.5 127.8 moveto 55 (Australia) alignedtext
+grestore
+% u2--u4
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 2021.86 153.36 moveto
+2054.51 156.2 2099.02 158.31 2138 154 curveto
+2145.35 153.19 2153.06 151.89 2160.54 150.39 curveto
+stroke
+grestore
+% u3--u1
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 2129.9 107.81 moveto
+2138.43 105.81 2147.46 104.04 2156 103 curveto
+2200.12 97.65 2212.19 95.53 2256 103 curveto
+2267.68 104.99 2279.97 108.63 2291.1 112.57 curveto
+stroke
+grestore
+% u3--u4
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 2132.48 126.28 moveto
+2140.76 127.73 2149.5 129.26 2157.95 130.75 curveto
+stroke
+grestore
+% u4--u1
+gsave
+1 setlinewidth
+0.66667 1 1 edgecolor
+newpath 2255.97 135.02 moveto
+2264.27 134.34 2272.9 133.64 2281.2 132.97 curveto
+stroke
+grestore
+endpage
+showpage
+grestore
+%%PageTrailer
+%%EndPage: 1
+%%Trailer
+%%Pages: 1
+%%BoundingBox: 36 36 2456 503
+end
+restore
+%%EOF

@@ -1,0 +1,54 @@
+n	North America (5)
+	1	Alaska
+	2	Alberta
+	3	Central America
+	4	Eastern United States
+	5	Greenland
+	6	Northwest Territory
+	7	Ontario
+	8	Quebec
+	9	Western United States
+
+s	South America (2)
+	1	Argentina
+	2	Brazil
+	3	Peru
+	4	Venezuela
+
+e	Europe (5)
+	1	Great Britain
+	2	Iceland
+	3	Northern Europe
+	4	Scandinavia
+	5	Southern Europe
+	6	Ukraine
+	7	Western Europe
+
+f	Africa (3)
+	1	Congo
+	2	East Africa
+	3	Egypt
+	4	Madagascar
+	5	North Africa
+	6	South Africa
+
+a	Asia (7)
+	1	Afghanistan
+	2	China
+	3	India
+	4	Irkutsk
+	5	Japan
+	6	Kamchatka
+	7	Middle East
+	8	Mongolia
+	9	Siam
+	10	Siberia
+	11	Ural
+	12	Yakutsk
+
+u	Australia (2)
+	1	Eastern Australia
+	2	Indonesia
+	3	New Guinea
+	4	Western Australia
+

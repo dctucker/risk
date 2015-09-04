@@ -1,0 +1,55 @@
+n	North America (5)
+	1	Anchorage
+	2	Vancouver
+	3	Mexico City
+	4	New York
+	5	Greenland
+	6	Nunavut
+	7	Ontario
+	8	Montreal
+	9	Los Angeles
+
+s	South America (2)
+	1	Buenos Aires
+	2	Rio de Janeiro
+	3	Lima
+	4	Bogota
+
+e	Europe (5)
+	1	London
+	2	Reykjavik
+	3	Amsterdam
+	4	Helsinki
+	5	Rome
+	6	Moscow
+	7	Paris
+
+f	Africa (3)
+	1	Kinshasa
+	2	Nairobi
+	3	Cairo
+	4	Madagascar
+	5	Casablanca
+	6	Cape Town
+
+a	Asia (7)
+	1	Tashkent
+	2	Beijing
+	3	Mumbai
+	4	Irkutsk
+	5	Tokyo
+	6	Vladivostok
+	7	Istanbul
+	8	Ulan Bataar
+	9	Bangkok
+	10	Novosibirsk
+	11	Omsk
+	12	Yakutsk
+
+u	Australia (2)
+	1	Sydney
+	2	Jambi
+	3	Bougainville
+	4	Perth
+
+
